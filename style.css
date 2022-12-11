@@ -101,12 +101,12 @@ width: 450px;
     position: relative;
   }
   .search-icon img{
-   width: 20px;
+   width: 15px;
   }
   .search-icon{
     position: absolute;
     top: 18px;
-    left: 10px;
+    left: 20px;
     cursor: pointer;
   }
   
