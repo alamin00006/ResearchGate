@@ -167,6 +167,9 @@ width: 450px;
 .give-line{
     margin-top: 80px;
 }
+.give-line2{
+    margin-top: 40px;
+}
 /* advance Research Part */
 .advance-research p{
     font-size: 40px;
@@ -187,6 +190,9 @@ width: 450px;
 .advance-research .join-button button:hover{
    background-color: #35ac8e; 
    }
+.join-button2{
+    margin-bottom: 100px;
+   }
 .pre-space::before {
     content: "''''";
     color: #fff;
@@ -200,7 +206,13 @@ width: 450px;
 
   .footer{
     background-color: #ebefee;
-    padding: 20px;
+    padding-top: 100px;
+    padding-bottom:20px;
+  }
+  .footer-title{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
   }
   .footer-part .footer-right-part, .footer-left-part{
     padding-right: 0 !important;
@@ -208,4 +220,39 @@ width: 450px;
   }
   .footer-image img{
      width: 200px;
+     height: 187px;
   }
+
+  .footer-details button{
+    border: 1px solid #40ba9b;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 6px 30px;
+    color: #40ba9b;
+   }
+   .footer-details button:hover{
+    border: 1px solid #40ba9b;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 6px 30px;
+    color: #40ba9b;
+    background-color: #d8f3ec;
+   }
+
+   .footer-bottom li{
+    list-style: none;
+    margin-right:10px ;
+   }
+   .footer-bottom li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 0.9rem;
+   }
+   .footer-bottom li a:hover{
+    text-decoration: underline;
+   }
+   .copy-right{
+    color: gray;
+    font-size: 0.9rem;
+    margin-left: 90px;
+   }
