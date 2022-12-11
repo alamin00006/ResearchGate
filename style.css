@@ -111,6 +111,9 @@ width: 450px;
   }
   
 /* community-part */
+.community-part{
+    margin-top: 75px !important;
+}
 .community-right h1{
     font-weight: 700;
     font-size: 3rem;
@@ -147,4 +150,62 @@ width: 450px;
  background-color: #05c390;
 
 }
+/* Measure part */
+.measure-right img{
+    width: 400px;
+}
+.measure-part{
+    margin-top: 80px !important;
+}
+.measure h1{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.measure p{
+    font-size: 21px;
+}
+.give-line{
+    margin-top: 80px;
+}
+/* advance Research Part */
+.advance-research p{
+    font-size: 40px;
+    line-height: 25px;
+    max-width: 550px;
+    font-weight: 700;
+    
+}
+.advance-research .join-button button{
+   background-color: #40ba9b; 
+   padding: 10px 110px;
+   font-size: 26px;
+   font-family: sans-serif;
+   color: white;
+   font-weight: 700;
+   border-radius: 3px;
+   }
+.advance-research .join-button button:hover{
+   background-color: #35ac8e; 
+   }
+.pre-space::before {
+    content: "''''";
+    color: #fff;
+    overflow: hidden;
+  }
+.pre-space2::before {
+    content: "'''''''";
+    color: #fff;
+    overflow: hidden;
+  }
 
+  .footer{
+    background-color: #ebefee;
+    padding: 20px;
+  }
+  .footer-part .footer-right-part, .footer-left-part{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .footer-image img{
+     width: 200px;
+  }
